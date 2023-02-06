@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;600&display=swap');
+
+*::before,
+*::after,
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: 'Sono', sans-serif;
+    text-align: center;
+    /* Photo by Johann: https://www.pexels.com/photo/man-walks-beside-train-940365/ */
+    background-image: url(images/pexels-johann-940365.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 18.75rem;
+    background-color: antiquewhite;
+    padding: 1.5625rem;
+    border-radius: 0.75rem;
+}
+
+h1 {
+    font-size: 1.5625rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+#count-el, 
+#save-el,
+#count-sum {
+    margin-bottom: 1.125rem;
+    margin-top: 1.125rem;
+}
+
+
+
+.buttons {
+    gap: 0.75rem;
+    align-items: center;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 9px;
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.counts {
+    margin-top: 0.75rem;
+}
